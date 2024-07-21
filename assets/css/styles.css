@@ -1,0 +1,135 @@
+hr {
+    height: 2px;
+    margin-left: 0.1vw 0.3vw;
+    background-color: #000000;
+}
+ .container-pizza {
+     position: relative;
+     height: 740px;
+     margin-left: 150px;
+     
+ }
+ .navbar-brand span {
+    font-family: 'Lobster', sans-serif;
+    font-style: italic;
+    font-weight: 500;
+    font-size: 37px;   
+    margin-left: 150px;   
+    
+ }
+ 
+ .span-ricomida {
+    font-family: 'Lobster', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;   
+   
+ }
+ .p-newsletter {
+     font-family: 'Cabin', sans-serif;
+     font-weight: normal;
+     font-size: 30px;
+    
+ }
+ 
+ .img-pizza {
+     width: 482px;
+     height: 386px;
+     margin-left: 150;
+ }
+ 
+ .div-body {    
+     width: 80%;
+     
+ }
+ 
+ .card-button {
+     margin: 0px 58px ;
+ }
+ 
+ .div-body h1 {
+     font-family: 'Cabin', sans-serif;
+     font-weight: bold;
+     font-size: 40px;
+     color: #373A3C;
+ }
+ 
+ .card-title {
+     font-family: 'Cabin', sans-serif;
+     font-weight: bold;
+     font-size: 23px;
+     color: #373A3C;
+ }
+ 
+ .card-text {
+     font-family: 'Cabin', sans-serif;
+     font-size: 16px;
+     color: #373A3C;
+ }
+ 
+ .div-body p {
+     font-family: 'Cabin', sans-serif;
+     font-weight: bold;
+     font-size: 20px;
+     color: #373A3C;
+ }
+ 
+ 
+ .carousel-item img {
+     width: 233px;
+     height: auto;
+ } 
+ 
+ .carousel-indicators {
+     bottom: -52px;
+ } 
+ 
+  .carousel-indicators [data-bs-target]{
+     border-radius: 50%;
+     width: 15px;
+     height: 15px;
+ }
+ 
+ .carousel .carousel-indicators button {
+     width: 20px;
+     height: 20px;
+     border-radius: 100%;
+     background-color: #ccc;
+     
+ }
+ 
+ .list-group-item {
+     border: none;
+ }
+ 
+ .footer-red {
+     background-color: #DC3545;
+    
+ }
+ 
+ .div-footer {
+     padding: 150px  100px;
+ }
+ 
+ .footer-copyright{
+     background-color: #373A3C;
+ }
+ 
+ .footer-logo {
+    font-family: 'Lobster', sans-serif;
+    font-style: italic;
+    font-weight: 500;
+    font-size: 37px;   
+   
+ }
+ 
+ .red-text{
+     color: red;
+ }
+  
+  /* Ocultar carrusel en tamaños sm y xs */
+ @media (max-width: 575.98px) {
+     .carousel {
+         display: none;
+     }
+ }
